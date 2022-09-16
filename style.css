@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Mono:ital,wght@0,500;1,700&family=Ubuntu&display=swap');
-html, body {
+html{
   height: 100%;
   width: 100%;
 }
@@ -63,4 +63,5 @@ input{
   background-color: white;
   font-size:large;
   border: 2px solid grey;
+  color:black;
 }
