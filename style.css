@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Mono:ital,wght@0,500;1,700&family=Ubuntu&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+:root{
+  --primary-dark:#DDA0DD;
+    --primary-light: rgb(11, 13, 12);
+}
+body{
+  background-color:var(--primary-dark);
+  color:var(--primary-light));
+  font-family: 'Crimson Text', serif;
+}
+h1{
+  text-align: center;
+  color: var(--primary-light);
+}
+.container{
+  width: 50%;
+  margin:auto;
+  color:var(--primary-light);
+  font-size: large;
+}
+
+input,label{
+  display:block;
+  font-size: large;
+  font-weight: lighter;
+}
+input{
+  margin-botton:1rem;
+  width:100%;
+   background-color: white;
+   width: 80%;
+	border: 2px solid rgb(133, 133, 133);
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+
+  
+}
+#check-number{
+
+  display:block;
+  width:70%;
+  background-color: white;
+  text-align: center;
+	border-radius: 0.5rem;
+	border: 2px solid grey;
+	width: 30%;
+	color:black;
+	font-weight: bold;
+	font-size: larger;
+	margin: 15px;
+}
+#output-box{
+  margin-top: 1rem;
+  display:block;
+  width:80%;
+  background-color: white;
+  font-size:large;
+  border: 2px solid grey;
+}
